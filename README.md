@@ -1,4 +1,7 @@
-# test coverage for  [express-bunyan-logger (v1.3.1)](https://github.com/villadora/express-bunyan-logger#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-bunyan-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-bunyan-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-bunyan-logger.svg)](https://travis-ci.org/npmtest/node-npmtest-express-bunyan-logger)
+# npmtest-express-bunyan-logger
+
+#### basic test coverage for  [express-bunyan-logger (v1.3.1)](https://github.com/villadora/express-bunyan-logger#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-bunyan-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-bunyan-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-bunyan-logger.svg)](https://travis-ci.org/npmtest/node-npmtest-express-bunyan-logger)
+
 #### a bunyan logger middleware for express
 
 [![NPM](https://nodei.co/npm/express-bunyan-logger.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-bunyan-logger)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-bunyan-logger/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-bunyan-logger/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-bunyan-logger/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-bunyan-logger/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-bunyan-logger/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-bunyan-logger/build/coverage.html/index.html)
 
@@ -106,7 +109,8 @@
         "lint": "jshint index.js test/*.js",
         "test": "npm run lint && ./node_modules/.bin/mocha -R spec"
     },
-    "version": "1.3.1"
+    "version": "1.3.1",
+    "bin": {}
 }
 ```
 
